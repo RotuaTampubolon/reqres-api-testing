@@ -1,14 +1,21 @@
 {
   "name": "reqres-api-testing",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API Testing Portfolio with Postman and Newman",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "newman run postman/collection.json -e postman/environment.json",
+    "test:report": "newman run postman/collection.json -e postman/environment.json -r htmlextra --reporter-htmlextra-export reports/report.html"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "api-testing",
+    "newman",
+    "postman",
+    "qa"
+  ],
+  "author": "Rotua Immanuela Tampubolon",
   "license": "ISC",
-  "type": "commonjs"
+  "devDependencies": {
+    "newman": "^6.0.0",
+    "newman-reporter-htmlextra": "^1.22.11"
+  }
 }
- 
