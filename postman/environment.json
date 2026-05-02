@@ -1,0 +1,22 @@
+{
+	"id": "acb629a4-cc83-472b-b70e-41c2b84ff350",
+	"name": "ReqRes Environment",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "userId",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"color": null,
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2026-05-02T17:56:54.007Z",
+	"_postman_exported_using": "Postman/12.8.4"
+}
